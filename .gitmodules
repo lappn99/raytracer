@@ -1,0 +1,3 @@
+[submodule "realm-util"]
+	path = realm-util
+	url = https://github.com/Realm-Engine/realm-util.git

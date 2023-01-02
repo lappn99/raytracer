@@ -1,14 +1,14 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{F134817E-2593-4315-9346-BBB2DE75A776}") = "rtweekend", ".dub/rtweekend.visualdproj", "{61C589F9-C2F0-46B5-A4E7-C389AEDF61D6}"
+Project("{CA9FA92D-9335-4C80-8BF1-678EB209BF6F}") = "rtweekend", ".dub/rtweekend.visualdproj", "{39FD6C41-72F6-432A-BF0E-27F9553CC118}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		debug|x64 = debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{61C589F9-C2F0-46B5-A4E7-C389AEDF61D6}.debug|x64.ActiveCfg = debug|x64
-		{61C589F9-C2F0-46B5-A4E7-C389AEDF61D6}.debug|x64.Build.0 = debug|x64
+		{39FD6C41-72F6-432A-BF0E-27F9553CC118}.debug|x64.ActiveCfg = debug|x64
+		{39FD6C41-72F6-432A-BF0E-27F9553CC118}.debug|x64.Build.0 = debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

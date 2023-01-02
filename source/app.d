@@ -1,5 +1,10 @@
 import std.stdio;
 import std.format;
+import realmutil.rmath;
+
+
+
+
 void main()
 {
 	int imageWidth = 256;
@@ -14,11 +19,12 @@ void main()
 			auto r = cast(double) i/ (imageWidth - 1);
 			auto g = cast(double) j / (imageHeight - 1);
 			auto b = 0.25;
-
 			int ir = cast(int)(255.999 * r);
 			int ig = cast(int)(255.999 * g);
 			int ib = cast(int)(255.999 * b);
-			writeln("%d %d %d".format(ir,ig,ib));
+			vec3i color = vec3i(ir,ig,ib);
+			writefln("%3.v",color);
+
 
 		}
 	}
